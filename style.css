@@ -1,0 +1,71 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header {
+  color: #444343;
+  display: block;
+}
+
+.conteiner{
+  width: 20%;
+  border: 2px solid blue;
+  padding: 30px;
+  border-radius: 10%;
+  
+}
+.city-name {
+  text-align: center;
+  display: block;
+  font-size: 1.5rem;
+  color: blue;
+  width: 85%;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid grey;
+  outline: none;
+  margin-bottom: 2em;
+  border-radius: 5%;
+}
+
+
+
+.temperature {
+  text-align: center;
+  font-size: 3rem;
+  color: gray;
+  margin-bottom: 1.5%;
+  margin-top: 0;
+}
+
+.clouds {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 0;
+  color: gray;
+}
+.icon {
+  list-style: none;
+  margin-bottom: 1em;
+}
+
+.icon li {
+  text-align: center;
+}
+.btn {
+  text-align: center;
+  height: 3rem;
+  background-color: rgb(158, 156, 156);
+  width: 7rem;
+  border-radius: 5%;
+  border: none;
+  font-weight: bold;
+  color: white;
+  outline: none;
+}
+.btn:hover {
+  background-color: rgb(236, 230, 230);
+  color: blue;
+}
